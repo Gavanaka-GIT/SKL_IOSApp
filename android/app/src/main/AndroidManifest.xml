@@ -2,7 +2,8 @@
     <application
         android:label="Skl_HRApp"
         android:name="${applicationName}"
-        android:icon="@mipmap/logo">
+        android:icon="@mipmap/logo"
+        android:usesCleartextTraffic="true">
         <activity
             android:name=".MainActivity"
             android:exported="true"
